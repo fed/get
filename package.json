@@ -1,0 +1,15 @@
+{
+  "name": "get",
+  "version": "1.0.0",
+  "description": "Get nested values in objects",
+  "main": "index.js",
+  "repository": "git@github.com:fknussel/get.git",
+  "author": "Federico Knüssel <fknussel@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "ava"
+  },
+  "devDependencies": {
+    "ava": "^2.3.0"
+  }
+}
