@@ -9,6 +9,9 @@
   "scripts": {
     "test": "ava"
   },
+  "dependencies": {
+    "lodash": "^4.17.15"
+  },
   "devDependencies": {
     "ava": "^2.3.0"
   }

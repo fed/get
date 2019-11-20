@@ -1,14 +1,6 @@
-function isObject(obj) {
-  return obj === Object(obj);
-}
-
-function isString(str) {
-  return typeof str === 'string' || str instanceof String;
-}
-
-function isUndefined(value) {
-  return value === undefined;
-}
+const isObject = require('lodash/isObject');
+const isString = require('lodash/isString');
+const isUndefined = require('lodash/isUndefined');
 
 module.exports = function get(obj, path, defaultValue) {
   if (!isObject(obj) || !isString(path)) {
